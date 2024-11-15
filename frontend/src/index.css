@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+*::selection{
+    background: rgb(255, 172, 187);
+}
+
+:root {
+    --primary: theme('colors.dark.primary');
+    --background: theme('colors.dark.background');
+    --text: theme('colors.dark.text');
+    --border: theme('colors.dark.border');
+}
+
+[data-theme='dark'] {
+    --primary: theme('colors.dark.primary');
+    --background: theme('colors.dark.background');
+    --text: theme('colors.dark.text');
+    --border: theme('colors.dark.border');
+}
+
+[data-theme='light'] {
+    --primary: theme('colors.light.primary');
+    --background: theme('colors.light.background');
+    --text: theme('colors.light.text');
+    --border: theme('colors.light.border');
+}
+
+[data-theme='light_blue'] {
+    --primary: theme('colors.light_blue.primary');
+    --background: theme('colors.light_blue.background');
+    --text: theme('colors.light_blue.text');
+    --border: theme('colors.light_blue.border');
+}
+
+[data-theme='light_orange'] {
+    --primary: theme('colors.light_orange.primary');
+    --background: theme('colors.light_orange.background');
+    --text: theme('colors.light_orange.text');
+    --border: theme('colors.light_orange.border');
+}
+
+@font-face {
+    font-family: 'KorbinW0';
+    src: url('./assets/fonts/KorbinW01Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jagerlay';
+    src: url('./assets/fonts/Jagerlay-Sans/Jagerlay-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jagerlay';
+    src: url('./assets/fonts/Jagerlay-Sans/Jagerlay-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jagerlay';
+    src: url('./assets/fonts/Jagerlay-Sans/Jagerlay-ExtraBold.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jagerlay';
+    src: url('./assets/fonts/Jagerlay-Sans/Jagerlay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jagerlay';
+    src: url('./assets/fonts/Jagerlay-Sans/Jagerlay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jagerlay';
+    src: url('./assets/fonts/Jagerlay-Sans/Jagerlay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jagerlay';
+    src: url('./assets/fonts/Jagerlay-Sans/Jagerlay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jagerlay-Hairline';
+    src: url('./assets/fonts/Jagerlay-Sans/Jagerlay-Hairline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jagerlay';
+    src: url('./assets/fonts/Jagerlay-Sans/Jagerlay-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+html,
+body {
+    font-family: 'KorbinW0';
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: var(--background);
+    color: var(--text);
+    margin: 0 auto;
+    border-color: var(--border);
+}
+
+.HeroVideoDiv {
+    clip-path: circle(var(--clip) at 50% 50%);
+}
