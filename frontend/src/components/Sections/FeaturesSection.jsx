@@ -18,12 +18,12 @@ const FeaturesSection = () => {
     )
 
     return (
-        <section data-theme='light' className="Feature_section relative w-full 3xl:max-w-[90rem] h-full m-auto py-[5vh] px-[6vh] flex justify-center items-start md:flex-row flex-col gap-[2rem]">
+        <section data-theme='light' className="Feature_section relative w-full 3xl:max-w-[90rem] h-full m-auto py-[8rem] px-[6vh] flex justify-center items-start md:flex-row flex-col gap-[2rem]">
             <div className="left-text sticky top-[5rem] flex-1">
                 <div className="flex flex-col md:flex-row items-center justify-between mb-12">
                     <div className="text-left mb-6">
                         <p className="section-name text-gray-400 text-lg font-semibold mb-4">Why Choose Us</p>
-                        <p className="xl:text-[1.5rem] text-[2.7vh] mb-4 max-w-[50rem]">Significo is a custom health software developer founded on the belief that technology can transform healthcare to put people first. We put humanity back at the center of healthcare with technology that simplifies complexity, accelerates capacity, and improves outcomes.</p>
+                        <p className="text-gray-300 xl:text-[1.5rem] text-[2.7vh] mb-4 max-w-[50rem]">Significo is a custom health software developer founded on the belief that technology can transform healthcare to put people first. We put humanity back at the center of healthcare with technology that simplifies complexity, accelerates capacity, and improves outcomes.</p>
                         <p className="xl:text-[4.5rem] text-[5vh] font-bold">Human-Centric <br /> Health Software</p>
                         <ReUseButton value={'OUR SOLUTIONS'} tailwindclasse="bg-black px-4 py-2 rounded-md mt-4" />
                     </div>

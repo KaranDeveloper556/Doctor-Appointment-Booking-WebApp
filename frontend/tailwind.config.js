@@ -43,6 +43,9 @@ export default {
         '3xl': '1680px',
         '4xl': '2800px'
       },
+      backgroundImage: {
+        'text-bg': "url('https://i.pinimg.com/736x/1b/12/a1/1b12a1c4de32683210ba2e57081b6f5c.jpg')",
+      }
     },
   },
   plugins: [],

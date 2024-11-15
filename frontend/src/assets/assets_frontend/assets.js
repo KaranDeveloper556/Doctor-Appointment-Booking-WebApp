@@ -1,45 +1,51 @@
-import appointment_img from './appointment_img.png'
-import HeaderVideo from './hero-video.mp4'
-import group_profiles from './group_profiles.png'
-import profile_pic from './profile_pic.png'
-import contact_image from './contact_image.png'
-import about_image from './about_image.png'
-import logo from './logo.svg'
-import dropdown_icon from './dropdown_icon.svg'
-import menu_icon from './menu_icon.svg'
-import cross_icon from './cross_icon.png'
-import chats_icon from './chats_icon.svg'
-import verified_icon from './verified_icon.svg'
-import arrow_icon from './arrow_icon.svg'
-import info_icon from './info_icon.svg'
-import upload_icon from './upload_icon.png'
-import stripe_logo from './stripe_logo.png'
-import razorpay_logo from './razorpay_logo.png'
-import doc1 from './doc1.png'
-import doc2 from './doc2.png'
-import doc3 from './doc3.png'
-import doc4 from './doc4.png'
-import doc5 from './doc5.png'
-import doc6 from './doc6.png'
-import doc7 from './doc7.png'
-import doc8 from './doc8.png'
-import doc9 from './doc9.png'
-import doc10 from './doc10.png'
-import doc11 from './doc11.png'
-import doc12 from './doc12.png'
-import doc13 from './doc13.png'
-import doc14 from './doc14.png'
-import doc15 from './doc15.png'
-import Dermatologist from './categories/Dermatologist.png'
-import Gastroenterologist from './categories/Gastroenterologist.png'
-import General_physician from './categories/General_physician.png'
-import Gynecologist from './categories/Gynecologist.png'
-import Neurologist from './categories/Neurologist.png'
-import Pediatricians from './categories/Pediatricians.png'
-import healthyHeroGif from './healthy-hero-image.gif'
+import appointment_img from './appointment_img.png';
+import HeaderVideo from './hero-video.mp4';
+import group_profiles from './group_profiles.png';
+import profile_pic from './profile_pic.png';
+import contact_image from './contact_image.png';
+import about_image from './about_image.png';
+import logo from './logo.svg';
+import dropdown_icon from './dropdown_icon.svg';
+import menu_icon from './menu_icon.svg';
+import cross_icon from './cross_icon.png';
+import chats_icon from './chats_icon.svg';
+import verified_icon from './verified_icon.svg';
+import arrow_icon from './arrow_icon.svg';
+import info_icon from './info_icon.svg';
+import upload_icon from './upload_icon.png';
+import stripe_logo from './stripe_logo.png';
+import razorpay_logo from './razorpay_logo.png';
+import doc1 from './doc1.png';
+import doc2 from './doc2.png';
+import doc3 from './doc3.png';
+import doc4 from './doc4.png';
+import doc5 from './doc5.png';
+import doc6 from './doc6.png';
+import doc7 from './doc7.png';
+import doc8 from './doc8.png';
+import doc9 from './doc9.png';
+import doc10 from './doc10.png';
+import doc11 from './doc11.png';
+import doc12 from './doc12.png';
+import doc13 from './doc13.png';
+import doc14 from './doc14.png';
+import doc15 from './doc15.png';
+import Dermatologist from './categories/Dermatologist.png';
+import Gastroenterologist from './categories/Gastroenterologist.png';
+import General_physician from './categories/General_physician.png';
+import Gynecologist from './categories/Gynecologist.png';
+import Neurologist from './categories/Neurologist.png';
+import Pediatricians from './categories/Pediatricians.png';
+import healthyHeroGif from './healthy-hero-image.gif';
 
-import ChoicingImage from './HorizontalSlides/choice.png'
-import BookingImage from './HorizontalSlides/book.png'
+import ChoicingImage from './HorizontalSlides/choice.png';
+import BookingImage from './HorizontalSlides/book.png';
+
+import animeDoc1 from './anime-doc-1.png';
+import animeDoc2 from './anime-doc-2.png';
+
+import AnimeImg1 from './anime-img-1.png';
+import AnimeImg2 from './anime-img-2.png';
 
 export const assets = {
     appointment_img,
@@ -69,7 +75,11 @@ export const assets = {
     ChoicingImage,
     BookingImage,
     doc1,
-    doc3
+    doc3,
+    animeDoc1,
+    animeDoc2,
+    AnimeImg1,
+    AnimeImg2,
 }
 
 export const doctors = [

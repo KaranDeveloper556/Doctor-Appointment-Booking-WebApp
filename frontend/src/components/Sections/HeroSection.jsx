@@ -94,7 +94,7 @@ const HeroSection = () => {
         <video src={assets.HeaderVideo} muted autoPlay loop className='relative object-cover w-full h-full hero-main-video'></video>
       </div>
       <div className="relative w-full h-full Marquee-sec mt-[13vh]">
-        <div className="mx-auto relative text-center max-w-[40vw] marquee-subtitle md:text-[3vh] text-[3vw] tracking-tight z-[999]">
+        <div className="mx-auto relative text-center max-w-[40vw] marquee-subtitle md:text-[3vh] text-[3vw] tracking-tight z-[999] text-transparent bg-clip-text bg-text-bg">
           <p>Book Trusted Doctors</p>
           <p>Anytime – Convenient Healthcare at Home</p>
         </div>

@@ -6,10 +6,11 @@ import ReviewSection from '../components/Sections/ReviewSection';
 import IntroSection from '../components/Sections/IntroSection';
 import FAQ from '../components/Specifics/FAQ';
 import CTA from '../components/Utilities/CTA';
+import TagLineSection from '../components/Sections/TagLineSection';
 
 
 const Home = () => {
-  
+
   return (
     <>
       <header className='m-auto'>
@@ -19,7 +20,8 @@ const Home = () => {
         <IntroSection />
         <DoctorSpecialitySection />
         <FeaturesSection />
-        <ReviewSection />
+        <TagLineSection />
+        {/* <ReviewSection /> */}
         <FAQ />
         <CTA />
       </main>
