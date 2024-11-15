@@ -7,10 +7,10 @@ import gsap from 'gsap'
 const FeaturesSection = () => {
     useGSAP(
         () => {
-            gsap.to('.Feature_section', { 
+            gsap.to('.Feature_section', {
                 scrollTrigger: {
                     trigger: '.right-cards',
-                    start: 'top 30%', 
+                    start: 'top 30%',
                     end: `bottom 75%`,
                 },
             })
@@ -18,18 +18,18 @@ const FeaturesSection = () => {
     )
 
     return (
-        <section data-theme='light' className="Feature_section relative w-full 3xl:max-w-[90rem] h-full m-auto py-[8rem] px-[6vh] flex justify-center items-start md:flex-row flex-col gap-[2rem]">
-            <div className="left-text sticky top-[5rem] flex-1">
+        <section data-theme='light' className="Feature_section relative w-full 3xl:max-w-[90rem] h-full m-auto py-[8rem] lg::px-[4rem] px-[2vw] flex justify-center items-start md:flex-row flex-col gap-[2rem]">
+            <div className="left-text sticky md:top-[5rem] top-[-7rem] flex-1">
                 <div className="flex flex-col md:flex-row items-center justify-between mb-12">
                     <div className="text-left mb-6">
-                        <p className="section-name text-gray-400 text-lg font-semibold mb-4">Why Choose Us</p>
-                        <p className="text-gray-300 xl:text-[1.5rem] text-[2.7vh] mb-4 max-w-[50rem]">Significo is a custom health software developer founded on the belief that technology can transform healthcare to put people first. We put humanity back at the center of healthcare with technology that simplifies complexity, accelerates capacity, and improves outcomes.</p>
-                        <p className="xl:text-[4.5rem] text-[5vh] font-bold">Human-Centric <br /> Health Software</p>
+                        <p className="section-name text-gray-400 text-sm sm:text-lg font-semibold mb-4">Why Choose Us</p>
+                        <p className="text-gray-300 xl:text-[1.5rem] sm:text-[2.6vh] text-[4.3vw] mb-4 max-w-[50rem]">Significo is a custom health software developer founded on the belief that technology can transform healthcare to put people first. We put humanity back at the center of healthcare with technology that simplifies complexity, accelerates capacity, and improves outcomes.</p>
+                        <p className="lg:text-[3rem] md:text-[5vw] li:text-[9vw] text-[5vh] font-bold">Human-Centric <br /> Health Software</p>
                         <ReUseButton value={'OUR SOLUTIONS'} tailwindclasse="bg-black px-4 py-2 rounded-md mt-4" />
                     </div>
                 </div>
             </div>
-            <div className="relative right-cards my-[25rem] flex-1">
+            <div className="relative right-cards my-[25vh] flex-1">
                 <div className="flex flex-col gap-[6rem]">
                     <FeatureCard heading={'Easy Booking'} para={'Book appointments with a few clicks, anytime and anywhere, and receive instant confirmations.'} />
                     <FeatureCard heading={'Reminders'} para={'Get notified about upcoming appointments and stay on track with personalized reminders and alerts.'} img={"👋🏻"} />
@@ -37,8 +37,8 @@ const FeaturesSection = () => {
                     <FeatureCard heading={'Secure Payments'} para={'Make secure payments online, and receive instant receipts and confirmations for your appointments.'} img={"😎"} />
                     <FeatureCard heading={'Doctor Profiles'} para={'View detailed profiles of our doctors, including their qualifications, experience, and patient reviews.'} img={"😊"} />
                     <FeatureCard heading={'Appointment History'} para={'Access your appointment history, including past and upcoming appointments, and manage your schedule with ease.'} />
-                </div> 
-                
+                </div>
+
             </div>
         </section>
     )

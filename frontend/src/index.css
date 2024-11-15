@@ -134,11 +134,11 @@ body {
 }
 
 body {
+  margin: 0 auto;
+  overflow-x: hidden;
   background: var(--background);
   color: var(--text);
-  margin: 0 auto;
   border-color: var(--border);
-  overflow-x: hidden;
 }
 
 .HeroVideoDiv {
