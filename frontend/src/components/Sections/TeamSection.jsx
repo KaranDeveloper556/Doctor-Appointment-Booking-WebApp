@@ -77,13 +77,12 @@ const TeamSection = () => {
                         (member, MemberIndex) => {
                             return (
                                 <div
-                                    className="member-item relative w-full max-w-[75rem]"
+                                    className="member-item relative w-full max-w-[90rem]"
                                     onMouseEnter={e => TeamMouseMove(e)}
                                     onMouseMove={e => TeamMouseMove(e)}
                                     onMouseLeave={e => TeamMouseLeave(e)}
                                     key={MemberIndex}>
-                                    <div
-                                        className={`relative w-full flex items-center justify-between md:flex-row flex-col border-t-2 ${MemberIndex == team.length - 1 ? 'border-b-2' : ''} py-6 px-4 z-[2]`}>
+                                    <div className={`relative w-full flex items-center justify-between md:flex-row flex-col border-t-2 ${MemberIndex == team.length - 1 ? 'border-b-2' : ''} py-6 px-12 z-[2]`}>
                                         <div className="overlay absolute top-0 left-0 bg-blue-500 w-full h-[0%] transition-all z-[-1]"></div>
                                         <div className="relative flex items-center md:justify-center justify-between gap-[1.5rem]">
                                             <span className="xl:text-[2rem] text-[3vh] text-gray-400 font-bold mr-[.5vw]">{MemberIndex < 10 ? `0${MemberIndex}` : `${MemberIndex}`}</span>
@@ -92,7 +91,7 @@ const TeamSection = () => {
                                         <span>{member.post}</span>
                                     </div>
                                     <div
-                                        className="member-image-container absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[15rem] w-[15rem] scale-0 z-[3]">
+                                        className="member-image-container absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[12rem] w-[12rem] scale-0 z-[3]">
                                         <img
                                             src={member.image}
                                             alt="img"

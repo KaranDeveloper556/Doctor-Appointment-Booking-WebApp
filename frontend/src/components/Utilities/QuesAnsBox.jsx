@@ -27,7 +27,7 @@ const QuesAnsBox = ({ Ques = 'Lorem ipsum dolor sit amet consectetur adipisicing
     }, [BtnState]);
 
     return (
-        <div className={`QuesAnsBox relative border-t-[4px] ${lastElemBorder && 'border-b-[4px]'} md:mx-[5vw] mx-[3vw] md:p-[1.3rem] p-[4vw] transition-all cursor-pointer`} onClick={() => setBtnState(!BtnState)}>
+        <div className={`QuesAnsBox relative border-t-[4px] ${lastElemBorder && 'border-b-[4px]'} md:mx-[5vw] mx-[3vw] md:p-[1.8rem] p-[4.5vw] transition-all cursor-pointer`} onClick={() => setBtnState(!BtnState)}>
             <div className="ques-box relative xl:text-[1.6rem] md:text-[1.5vw] sm:text-[1.2rem] text-[4.5vw] flex justify-between items-center lg:gap-[4rem] gap-[1vw]">
                 <p className='relative font-bold'>
                     <span className='text-blue-600'>Q. &nbsp;</span>{Ques}

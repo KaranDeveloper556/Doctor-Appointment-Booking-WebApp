@@ -44,7 +44,7 @@ export default {
         '4xl': '2800px'
       },
       backgroundImage: {
-        'text-bg': "url('https://i.pinimg.com/736x/f6/de/eb/f6deeb73c59af4aa4c78799a427e52fa.jpg')",
+        'text-bg': "url('https://i.pinimg.com/736x/0d/a8/41/0da841457f98e50c9da4fe5345812bd6.jpg')",
       }
     },
   },
