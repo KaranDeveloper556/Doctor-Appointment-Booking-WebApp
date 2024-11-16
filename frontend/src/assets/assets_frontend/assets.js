@@ -46,6 +46,12 @@ import animeDoc2 from './anime-doc-2.png';
 
 import AnimeImg1 from './anime-img-1.png';
 import AnimeImg2 from './anime-img-2.png';
+import AnimeImg3 from './anime-img-3.png';
+import AnimeImg4 from './anime-img-4.png';
+import AnimeImg5 from './anime-img-5.png';
+import AnimeImg6 from './anime-img-6.png';
+import AnimeImg7 from './anime-img-7.png';
+import AnimeImg8 from './anime-img-8.png';
 
 export const assets = {
     appointment_img,
@@ -80,6 +86,12 @@ export const assets = {
     animeDoc2,
     AnimeImg1,
     AnimeImg2,
+    AnimeImg3,
+    AnimeImg4,
+    AnimeImg5,
+    AnimeImg6,
+    AnimeImg7,
+    AnimeImg8,
 }
 
 export const doctors = [

@@ -1,7 +1,8 @@
 import { useState } from "react";
 import ReUseButton from "../Utilities/ReUseButton";
 import { NavLink } from "react-router-dom";
-
+import { CgMenuRight } from "react-icons/cg";
+import { RxCross1 } from "react-icons/rx";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
@@ -73,7 +74,7 @@ const Navigation = () => {
         {/* Mobile menu Button */}
         <div className="nav-btn-animate flex justify-center items-center md:hidden z-[99]" id="menu">
           {
-            isOpen ? <ReUseButton value={'Close'} onclick={() => { setIsOpen(false) }} /> : <ReUseButton value={'Menu'} onclick={() => { setIsOpen(true) }} />
+            isOpen ? <ReUseButton icon={<RxCross1 />} onclick={() => { setIsOpen(false) }} /> : <ReUseButton value={<CgMenuRight />} onclick={() => { setIsOpen(true) }} />
           }
         </div>
       </div>
