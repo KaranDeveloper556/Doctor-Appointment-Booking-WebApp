@@ -15,6 +15,8 @@ import info_icon from './info_icon.svg';
 import upload_icon from './upload_icon.png';
 import stripe_logo from './stripe_logo.png';
 import razorpay_logo from './razorpay_logo.png';
+import QuotationSymbol from './Quotation.png';
+
 import doc1 from './doc1.png';
 import doc2 from './doc2.png';
 import doc3 from './doc3.png';
@@ -30,6 +32,7 @@ import doc12 from './doc12.png';
 import doc13 from './doc13.png';
 import doc14 from './doc14.png';
 import doc15 from './doc15.png';
+
 import Dermatologist from './categories/Dermatologist.png';
 import Gastroenterologist from './categories/Gastroenterologist.png';
 import General_physician from './categories/General_physician.png';
@@ -92,6 +95,7 @@ export const assets = {
     AnimeImg6,
     AnimeImg7,
     AnimeImg8,
+    QuotationSymbol
 }
 
 export const doctors = [
