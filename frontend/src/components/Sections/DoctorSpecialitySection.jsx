@@ -58,10 +58,13 @@ const DoctorSpecialitySection = () => {
             ],
             bgColor: 'sky',
         },
-    ];  
+    ];
     return (
-        <section data-theme='light_blue' className="container mx-auto DoctorsSpeciality my-[8rem]"> 
-            <div className="flex flex-wrap justify-center gap-[1rem] ">
+        <section data-theme='light_blue' className="container mx-auto DoctorsSpeciality my-[10rem] lg:my-[20vh]">
+            <div className="section-title mb-5">
+                <p className="section-name text-gray-400 text-lg font-semibold">Services</p>
+            </div>
+            <div className="flex flex-wrap justify-center gap-[.5rem] ">
                 {
                     Services.map(
                         (Ele, index) => {

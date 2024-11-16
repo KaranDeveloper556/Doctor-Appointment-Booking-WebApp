@@ -10,7 +10,7 @@ const TagLineSection = () => {
     useGSAP(() => {
 
         gsap.to('.tagLine', {
-            xPercent: -95,
+            xPercent: -98,
             ease: 'power1.inOut',
             scrollTrigger: {
                 trigger: '.Tag-line-section',
@@ -26,7 +26,7 @@ const TagLineSection = () => {
     // <img src={assets.AnimeImg1} alt="slide0-img" className="absolute top-1 left h-[20rem]" />
     return (
         <section className='Tag-line-section relative flex justify-start items-center w-full min-h-[80vh] overflow-hidden'>
-            <p className='tagLine relative pl-[50vw] font-extrabold font-Jagerlay text-[30vh] tracking-wide bg-text-bg bg-contain whitespace-nowrap text-transparent bg-clip-text capitalize'>
+            <p className='tagLine relative pl-[80vw] font-extrabold font-Jagerlay text-[30vh] tracking-wide bg-text-bg bg-contain whitespace-nowrap text-transparent bg-clip-text capitalize'>
                 Your Path to Trusted Healthcare Starts form - Kdevelops
             </p>
             <ReUseButton value={'Book Your Appointment Now'} tailwindclass={'absolute bottom-[2vh] scale-[1.1] right-[8vw]'} />
