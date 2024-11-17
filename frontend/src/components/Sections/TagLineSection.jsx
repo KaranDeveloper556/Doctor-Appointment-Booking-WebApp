@@ -23,9 +23,8 @@ const TagLineSection = () => {
         });
     });
 
-    // <img src={assets.AnimeImg1} alt="slide0-img" className="absolute top-1 left h-[20rem]" />
     return (
-        <section className='Tag-line-section relative flex justify-start items-center w-full min-h-[80vh] overflow-hidden'>
+        <section className='Tag-line-section relative flex justify-start items-center w-full min-h-[90vh] overflow-hidden'>
             <p className='tagLine relative pl-[80vw] font-extrabold font-Jagerlay text-[30vh] tracking-wide bg-text-bg bg-contain whitespace-nowrap text-transparent bg-clip-text capitalize'>
                 Your Path to Trusted Healthcare Starts form - Kdevelops
             </p>

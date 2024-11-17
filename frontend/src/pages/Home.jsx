@@ -19,8 +19,8 @@ const Home = () => {
         <IntroSection />
         <DoctorSpecialitySection />
         <FeaturesSection />
-        <TagLineSection />
         <ReviewSliderSection />
+        <TagLineSection />
         <FAQ />
         <CTA />
       </main>

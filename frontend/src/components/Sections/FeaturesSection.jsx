@@ -1,26 +1,8 @@
 import React from 'react'
 import FeatureCard from '../Utilities/FeatureCard'
 import ReUseButton from '../Utilities/ReUseButton'
-import { useGSAP } from '@gsap/react'
-import gsap from 'gsap'
 
 const FeaturesSection = () => {
-    // 
-    //     useGSAP(
-    //         () => {
-    //             gsap.to('.feature-card-1', {
-    //                 scale: 1,
-    //                 ease: 'power2.out',
-    //                 scrollTrigger: {
-    //                     trigger: '.feature-card',
-    //                     start: 'top 75%%',
-    //                     end: `bottom 30%`,
-    //                     markers: true,
-    //                     scrub: 1,
-    //                 },
-    //             })
-    //         }
-    //     )
 
     return (
         <section data-theme='light' className="Feature_section relative w-full 3xl:max-w-[90rem] h-full m-auto py-[8rem] lg:py-[10vh] lg:px-[4rem] px-[2vw] flex justify-center items-start md:flex-row flex-col gap-[2rem]">
