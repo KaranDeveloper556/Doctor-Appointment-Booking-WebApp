@@ -6,6 +6,7 @@ import FAQ from '../components/Specifics/FAQ';
 import CTA from '../components/Utilities/CTA';
 import TagLineSection from '../components/Sections/TagLineSection';
 import ReviewSliderSection from '../components/Sections/ReviewSliderSection';
+import ProfessionalDocSection from '../components/Sections/ProfessionalDocSection';
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
         <IntroSection />
         <DoctorSpecialitySection />
         <FeaturesSection />
+        <ProfessionalDocSection />
         <ReviewSliderSection />
         <TagLineSection />
         <FAQ />
