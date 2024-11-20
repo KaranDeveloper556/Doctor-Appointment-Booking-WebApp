@@ -1,55 +1,142 @@
+import { RiLinkedinBoxLine, RiTwitterLine } from "react-icons/ri";
+import { RiInstagramLine } from "react-icons/ri";
+
 const Footer = () => {
   return (
-    <footer className="py-12">
-      <div className="container px-4 mx-auto">
-        <div className="flex flex-col items-start justify-between mb-8 md:flex-row">
-          {/* Logo and Description */}
-          <div className="mb-6 md:w-1/3 md:mb-0">
-            <div className="flex items-center mb-4">
-              <div className="p-2 bg-blue-500 rounded-full">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="white"
-                  viewBox="0 0 24 24"
-                  className="w-6 h-6"
-                >
-                  {/* Replace with actual logo SVG path */}
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14h-2v-2h2v2zm0-4h-2V7h2v5zm6 4h-2v-2h2v2zm0-4h-2V7h2v5z" />
-                </svg>
-              </div>
-              <h2 className="ml-2 text-xl font-bold text-blue-600">Prescripto</h2>
+    (
+      <footer className="relative bg-black text-white w-full 3xl:max-w-[90rem] m-auto lg:px-[4rem] px-[5vw] ">
+        {/* Top Section */}
+        <div className="relative mx-auto flex flex-col lg:flex-row justify-between items-start lg:items-center gap-[4rem]">
+          {/* Left Section */}
+          <div className="relative space-y-6 md:w-auto w-full">
+            <h1 className="text-2xl font-semibold">Hire Different™.</h1>
+            <div className="flex items-center">
+              <input
+                type="email"
+                placeholder="email@gmail.com"
+                className="w-auto px-2 py-2 rounded-l-md bg-gray-800 text-white focus:outline-none"
+              />
+              <button className="bg-blue-500 px-10 py-2 rounded-r-md text-black font-semibold">
+                Join for free
+              </button>
             </div>
-            <p className="text-sm text-gray-600">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
+            {/* Social Icons */}
+            <div className="text-3xl flex items-center space-x-12 mt-4">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-white transition duration-200"
+                aria-label="Instagram"
+              >
+                <RiInstagramLine />
+              </a>
+              <a
+                href="#"
+                className="text-gray-400 hover:text-white transition duration-200"
+                aria-label="Twitter"
+              >
+                <RiTwitterLine />
+              </a>
+              <a
+                href="#"
+                className="text-gray-400 hover:text-white transition duration-200"
+                aria-label="LinkedIn"
+              >
+                <RiLinkedinBoxLine />
+              </a>
+            </div>
           </div>
 
-          {/* Company Links */}
-          <div className="mb-6 md:w-1/3 md:mb-0">
-            <h3 className="mb-4 text-lg font-bold">COMPANY</h3>
-            <ul>
-              <li><a href="#" className="text-gray-600 hover:text-gray-900">Home</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-gray-900">About us</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-gray-900">Delivery</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-gray-900">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          {/* Contact Information */}
-          <div className="md:w-1/3">
-            <h3 className="mb-4 text-lg font-bold">GET IN TOUCH</h3>
-            <p className="text-gray-600">+0-000-000-000</p>
-            <p className="text-gray-600">greatstackdev@gmail.com</p>
+          {/* Middle Section */}
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 text-sm w-full lg:w-auto flex-1">
+            {/* Column 1 */}
+            <div>
+              <h3 className="font-bold mb-4">Find Work</h3>
+              <ul className="space-y-2">
+                <li>
+                  <a href="#" className="hover:underline">
+                    Explore Jobs
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Discover Companies
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Browse Collections
+                  </a>
+                </li>
+              </ul>
+            </div>
+            {/* Column 2 */}
+            <div>
+              <h3 className="font-bold mb-4">Find People</h3>
+              <ul className="space-y-2">
+                <li>
+                  <a href="#" className="hover:underline">
+                    Learn More
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Sign up
+                  </a>
+                </li>
+              </ul>
+            </div>
+            {/* Column 3 */}
+            <div>
+              <h3 className="font-bold mb-4">Company</h3>
+              <ul className="space-y-2">
+                <li>
+                  <a href="#" className="hover:underline">
+                    About us
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Careers
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+            {/* Column 4 */}
+            <div>
+              <h3 className="font-bold mb-4">Company</h3>
+              <ul className="space-y-2">
+                <li>
+                  <a href="#" className="hover:underline">
+                    About us
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Careers
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
-        {/* Copyright */}
-        <div className="pt-4 text-sm text-center text-gray-500 border-t">
-          Copyright 2024 @ Greatstack.dev - All Right Reserved.
+        {/* Bottom Section */}
+        <div className="relative text-center xl:text-[14rem] text-[15vw] max-h-[15rem] font-Jagerlay font-bold text-white overflow-hidden">
+          KDevelops
         </div>
-      </div>
-    </footer>
-  );
-};
+      </footer>
+    )
+  )
+}
 
 export default Footer;

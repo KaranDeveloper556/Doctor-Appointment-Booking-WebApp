@@ -1,6 +1,7 @@
 import React from 'react'
 import DoctorCard from '../Utilities/DoctorCard'
 import { assets } from '../../assets/assets_frontend/assets';
+import ReUseButton from '../Utilities/ReUseButton';
 
 const ProfessionalDocSection = () => {
 
@@ -58,51 +59,6 @@ const ProfessionalDocSection = () => {
       experienceYear: 11,
       education: 'Cancer Research Academy',
       workedWith: 380,
-    },
-    {
-      imageSrc: assets.doc7,
-      name: 'Amit Gupta',
-      speciality: 'General Physician',
-      rating: 4.3,
-      experienceYear: 7,
-      education: 'Health & Wellness Clinic',
-      workedWith: 250,
-    },
-    {
-      imageSrc: assets.doc8,
-      name: 'Sonal Mehta',
-      speciality: 'Gynecologist',
-      rating: 4.6,
-      experienceYear: 14,
-      education: 'Women’s Health Center',
-      workedWith: 450,
-    },
-    {
-      imageSrc: assets.doc1,
-      name: 'Manish Thakur',
-      speciality: 'Endocrinologist',
-      rating: 4.5,
-      experienceYear: 13,
-      education: 'Endocrine Health Center',
-      workedWith: 410,
-    },
-    {
-      imageSrc: assets.doc2,
-      name: 'Kavita Rao',
-      speciality: 'Ophthalmologist',
-      rating: 4.7,
-      experienceYear: 16,
-      education: 'Vision Care Institute',
-      workedWith: 520,
-    },
-    {
-      imageSrc: assets.doc3,
-      name: 'Rohit Malhotra',
-      speciality: 'Urologist',
-      rating: 4.4,
-      experienceYear: 10,
-      education: 'Urology Health Institute',
-      workedWith: 310,
     }
   ];
 
@@ -114,12 +70,16 @@ const ProfessionalDocSection = () => {
           <span className='text-blue-600'>World's</span> Best <br /> Doctors..
         </h2>
       </div>
-      <div className="doctors-card flex justify-between items-center flex-wrap">
+      <div className="doctors-card flex justify-center items-center gap-[1rem] flex-wrap">
         {
           doctors.map((doctor, index) => {
             return <DoctorCard imageSrc={doctor.imageSrc} name={doctor.name} speciality={doctor.speciality} rating={doctor.rating} ExperienceYear={doctor.experienceYear} education={doctor.education} workedWith={doctor.workedWith} key={index} />
           })
         }
+      </div>
+      <div className="button py-[4rem]">
+
+        <ReUseButton value={'See More'} tailwindclass={'m-auto w-[20rem]'} />
       </div>
     </section>
   )

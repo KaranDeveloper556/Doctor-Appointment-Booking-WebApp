@@ -60,7 +60,7 @@ const DoctorSpecialitySection = () => {
         },
     ];
     return (
-        <section data-theme='light_blue' className="container mx-auto DoctorsSpeciality my-[10rem] lg:my-[20vh]">
+        <section data-theme='light_blue' className="DoctorsSpeciality relative w-full 3xl:max-w-[90rem] m-auto lg:my-[12rem] my-[18vh] lg:px-[4rem] px-[5vw]">
             <div className="section-title mb-5">
                 <p className="section-name text-gray-400 text-lg font-semibold">Services</p>
             </div>

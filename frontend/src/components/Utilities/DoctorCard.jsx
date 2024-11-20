@@ -11,11 +11,11 @@ const DoctorCard = ({
   workedWith = 420
 }) => {
   return (
-    <div className="relative max-w-[20rem] mx-[.4rem] my-[2rem] pb-7 bg-gray-300 rounded-[2rem] rounded-t-[5rem] shadow-2xl">
+    <div className="relative max-w-[25rem] mx-[.4rem] my-[2rem] pb-7 bg-gray-300 rounded-[2rem] rounded-t-[5rem] shadow-2xl border-[8px] border-gray-300">
       <img
         src={imageSrc}
         alt={name}
-        className="w-full h-[20rem] object-cover bg-blue-700 rounded-t-[5rem]"
+        className="w-full h-[25rem] object-cover bg-blue-700 rounded-t-[5rem] rounded-b-lg"
       />
 
       <div className=" doctor-info p-4 ">
@@ -39,7 +39,7 @@ const DoctorCard = ({
       </div>
 
       <div className="btn-see-doctor relative w-full flex justify-center">
-        <ReUseButton value={'Book Now'} tailwindclass={'absolute py-[.9rem] z-[10] w-[80%] font-bold text-black bg-blue-500 rounded-full'} />
+        <ReUseButton value={'Book Now'} tailwindclass={'absolute py-[.8rem] z-[10] w-[70%] font-bold text-black bg-blue-500 rounded-full'} />
       </div>
     </div>
   )
