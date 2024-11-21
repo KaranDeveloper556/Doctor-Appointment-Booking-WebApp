@@ -3,7 +3,7 @@ import QuesAnsBox from '../Utilities/QuesAnsBox'
 
 const FAQ = () => {
   return (
-    <section className="FAQ relative m-auto mt-[5rem] w-full 3xl:max-w-[90rem]">
+    <section className="FAQ relative m-auto mt-[5rem] w-full 4xl:max-w-[90rem]">
       <div className="heading font-Jagerlay xl:text-[5rem] md:text-[7vw] text-[11vw] font-bold text-left ml-[15vw] mb-[1.8rem]">
         <p>FAQ's</p>
       </div>

@@ -14,9 +14,9 @@ const About = () => {
         <PageHeroSection page='About' />
       </header>
       <main>
-        <HistorySection />
-        <TextAppearingSection />
         <IntroSection />
+        <TextAppearingSection />
+        <HistorySection />
         <FeaturesSection />
         <TeamSection />
         <CTA />
