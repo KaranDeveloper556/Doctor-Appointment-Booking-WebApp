@@ -21,7 +21,6 @@ const Navigation = () => {
 
   const links = [
     { link: "About", slug: "/about" },
-    { link: "services", slug: "/services" },
     { link: "doctors", slug: "/doctors" },
     { link: "contact", slug: "/contact" },
   ];
