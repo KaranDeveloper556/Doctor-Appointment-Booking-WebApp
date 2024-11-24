@@ -47,9 +47,9 @@ const App = () => {
             <Route path='/contact' element={<Contact />} />
             <Route path='/doctor' element={<Doctor />} />
             <Route path='/doctor/:speciality' element={<Doctor />} />
+            <Route path='/appointment/:docID' element={<Appointment />} />
             <Route path='/login' element={<Login />} />
             <Route path='/my-profile' element={<MyProfile />} />
-            <Route path='/appointment/:docID' element={<Appointment />} />
             <Route path='/my-appointment' element={<MyAppointments />} />
           </Routes>
           <Footer />

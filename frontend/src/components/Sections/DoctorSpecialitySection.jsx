@@ -1,5 +1,6 @@
 import DoctorSpecialityCard from '../Utilities/DoctorSpecialityCard';
 import { assets } from '../../assets/assets_frontend/assets';
+import { Link } from 'react-router-dom';
 
 const DoctorSpecialitySection = () => {
     const Services = [
@@ -68,11 +69,13 @@ const DoctorSpecialitySection = () => {
                 {
                     Services.map(
                         (Ele, index) => {
-                            return <DoctorSpecialityCard
-                                key={index}
-                                title={Ele.title}
-                                icon={Ele.image}
-                                peopleCount={Ele.peopleCount} />
+                            return <Link to={`/doctor/${Ele.title}`}>
+                                <DoctorSpecialityCard
+                                    key={index}
+                                    title={Ele.title}
+                                    icon={Ele.image}
+                                    peopleCount={Ele.peopleCount} />
+                            </Link>
                         }
                     )
                 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ReUseButton = ({ value, lefticon, righticon, onclick, tailwindclass }) => {
+const ReUseButton = ({ value, lefticon, righticon, onclick, tailwindclass , OnClicking }) => {
     return (
         <button
             onClick={onclick}
