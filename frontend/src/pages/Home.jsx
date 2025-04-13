@@ -7,6 +7,7 @@ import CTA from '../components/UI/CTA';
 import TagLineSection from '../components/Sections/TagLineSection';
 import ReviewSliderSection from '../components/Sections/ReviewSliderSection';
 import ProfessionalDocSection from '../components/Sections/ProfessionalDocSection';
+import Blob from '../components/UI/Blob';
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
         <HeroSection />
       </header>
       <main>
+        <Blob />
         <IntroSection />
         <DoctorSpecialitySection />
         <FeaturesSection />

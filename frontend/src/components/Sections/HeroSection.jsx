@@ -2,6 +2,7 @@ import { assets } from "../../assets/assets_frontend/assets";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Blob from "../UI/Blob";
 gsap.registerPlugin(ScrollTrigger)
 
 const HeroSection = () => {
