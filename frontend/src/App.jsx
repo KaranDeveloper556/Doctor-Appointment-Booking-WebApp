@@ -10,10 +10,10 @@ import Login from './pages/Login';
 import MyProfile from './pages/MyProfile';
 import Appointment from './pages/appointment';
 import MyAppointments from './pages/MyAppointments';
-import Naviagtion from './components/Specifics/Naviagtion';
-import Footer from './components/Specifics/Footer';
+import Naviagtion from './components/Sections/Naviagtion';
+import Footer from './components/Sections/Footer';
 
-import PreLoader from './components/Specifics/PreLoader';
+import PreLoader from './components/Sections/PreLoader';
 
 const App = () => {
   const [loading, setLoading] = useState(true);

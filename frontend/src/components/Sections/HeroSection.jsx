@@ -56,9 +56,11 @@ const HeroSection = () => {
     HeroTimeline
       .to('.HeroVideoDiv', {
         clipPath: 'circle(0% at center)',
+        opacity: 0.8
       }, 'HeroVidText')
       .to('.marquee', {
         scale: 1,
+        opacity: 1,
         delay: -0.1
       }, 'HeroVidText')
       .to('.reverseAnime', {
@@ -71,7 +73,7 @@ const HeroSection = () => {
       }, 'HeroVidText')
       .from('.marquee-subtitle', {
         y: 150,
-        scale: 2,
+        scale: 2.2,
         fontWeight: 900
       }, 'HeroVidText')
 
@@ -90,15 +92,15 @@ const HeroSection = () => {
 
   return (
     <section data-theme='dark' className="relative w-full h-screen overflow-hidden Hero-section">
-      <div className="absolute w-screen h-screen Hero-video z-[998] HeroVideoDiv" style={{ clipPath: 'circle(100% at center)' }}>
-        <video src={assets.HeaderVideo} muted autoPlay loop className='relative object-cover w-full h-full hero-main-video'></video>
+      <div className="HeroVideoDiv absolute w-full h-screen Hero-video z-[998] opacity-1 border-[10px] bg-blue-300 border-blue-300" style={{ clipPath: 'circle(100% at center)' }}>
+        <video src={assets.HeaderVideo} muted autoPlay loop className='relative rounded-xl object-cover w-full h-full hero-main-video'></video>
       </div>
       <div className="relative w-full h-full Marquee-sec mt-[13vh]">
-        <div className="mx-auto relative text-center max-w-[40vw] marquee-subtitle md:text-[2.5vh] text-[3vw] tracking-tight z-[999] text-transparent bg-clip-text bg-text-bg">
+        <div className="mx-auto relative text-center max-w-[40vw] marquee-subtitle md:text-[3.5vh] text-[4vw] font-extrabold tracking-tight z-[999] text-transparent bg-clip-text bg-text-bg">
           <p>Book Trusted Doctors</p>
           <p>Anytime – Convenient Healthcare at Home</p>
         </div>
-        <div className="relative marquee mt-[6vh] font-Jagerlay font-semibold scale-[1]">
+        <div className="relative marquee mt-[8vh] font-Jagerlay font-semibold scale-[1] opacity-0">
           {
             MarqueeTotalCols.map(
               (marqueeEle, indexKeys) => {

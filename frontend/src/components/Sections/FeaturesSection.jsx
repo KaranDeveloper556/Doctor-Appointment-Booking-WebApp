@@ -1,6 +1,6 @@
 import React from 'react'
-import FeatureCard from '../Utilities/FeatureCard'
-import ReUseButton from '../Utilities/ReUseButton'
+import FeatureCard from '../UI/FeatureCard'
+import ReUseButton from '../UI/ReUseButton'
 
 const FeaturesSection = () => {
 

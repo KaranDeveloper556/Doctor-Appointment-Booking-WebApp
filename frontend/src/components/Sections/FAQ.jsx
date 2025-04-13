@@ -1,5 +1,5 @@
 import React from 'react'
-import QuesAnsBox from '../Utilities/QuesAnsBox'
+import QuesAnsBox from '../UI/QuesAnsBox'
 
 const FAQ = () => {
   return (

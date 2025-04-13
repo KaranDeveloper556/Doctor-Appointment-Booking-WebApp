@@ -1,5 +1,5 @@
 import React from 'react'
-import ReviewCard from '../Utilities/ReviewCard'
+import ReviewCard from '../UI/ReviewCard'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination, Navigation } from 'swiper/modules';
 

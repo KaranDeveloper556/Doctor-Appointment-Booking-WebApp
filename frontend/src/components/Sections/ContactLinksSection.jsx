@@ -1,7 +1,7 @@
 import React from 'react'
 import gsap from 'gsap';
 import { MdArrowOutward } from "react-icons/md";
-import SideAlignTextSetion from '../Utilities/SideAlignTextSetion';
+import SideAlignTextSetion from '../UI/SideAlignTextSetion';
 
 const ContactLinksSection = () => {
     const Contacts = [

@@ -2,7 +2,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger)
-import ReUseButton from '../Utilities/ReUseButton'
+import ReUseButton from '../UI/ReUseButton'
 import { assets } from "../../assets/assets_frontend/assets";
 
 const TagLineSection = () => {

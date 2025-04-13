@@ -1,6 +1,6 @@
 import React from 'react'
-import PageHeroSection from '../components/Utilities/PageHeroSection'
-import SideAlignTextSetion from '../components/Utilities/SideAlignTextSetion'
+import PageHeroSection from '../components/UI/PageHeroSection'
+import SideAlignTextSetion from '../components/UI/SideAlignTextSetion'
 import ContactLinksSection from '../components/Sections/ContactLinksSection'
 
 const Contact = () => {

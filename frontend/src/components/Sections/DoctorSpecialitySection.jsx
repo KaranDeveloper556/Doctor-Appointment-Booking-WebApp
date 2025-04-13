@@ -1,4 +1,4 @@
-import DoctorSpecialityCard from '../Utilities/DoctorSpecialityCard';
+import DoctorSpecialityCard from '../UI/DoctorSpecialityCard';
 import { assets } from '../../assets/assets_frontend/assets';
 import { Link } from 'react-router-dom';
 

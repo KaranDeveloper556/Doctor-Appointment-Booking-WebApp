@@ -1,7 +1,7 @@
 import React from 'react'
-import DoctorCard from '../Utilities/DoctorCard'
+import DoctorCard from '../UI/DoctorCard'
 import { assets } from '../../assets/assets_frontend/assets';
-import ReUseButton from '../Utilities/ReUseButton';
+import ReUseButton from '../UI/ReUseButton';
 
 const ProfessionalDocSection = () => {
 

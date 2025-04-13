@@ -12,7 +12,7 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 import { RiUser2Line } from "react-icons/ri";
 
 // Utility Components
-import ReUseButton from "../Utilities/ReUseButton";
+import ReUseButton from "../UI/ReUseButton";
 
 const Navigation = () => {
   //Variables
