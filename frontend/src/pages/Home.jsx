@@ -18,7 +18,6 @@ const Home = () => {
         <HeroSection />
       </header>
       <main>
-        <Blob />
         <IntroSection />
         <DoctorSpecialitySection />
         <FeaturesSection />
